@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.services {
+    background-color: blue;
+    color: #fff;
+    height: 100vh;
+}
+
+.heading h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.icon{
+  display: flex;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.service1 {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+}
+
+.service2 {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-evenly;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.service-card p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+}

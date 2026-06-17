@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 70px;
+    width: auto;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fefbfb;
+    border: 2px solid black;
+}
+
+.navsections ul {
+    display: flex;
+    align-items: center;
+}
+
+.navsections ul li {
+    font-size: 30px;
+    list-style: none;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.navsections ul li:hover {
+    border-bottom: 1px solid red;
+    color: antiquewhite;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
